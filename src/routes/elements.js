@@ -10,8 +10,6 @@ const Loadable = (Component) => (props) =>
     </Suspense>
   );
 
-// =============  @@@@ ADMIN PAGES @@@@ ============
-
 // AUTH
 export const LoginPage = Loadable(
   lazy(() => import("../pages/auth/LoginPage"))

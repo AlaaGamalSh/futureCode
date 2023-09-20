@@ -147,7 +147,7 @@ export default function AddAdvert() {
 
   const [imageFile, setImageFile] = useState(null);
 
-  const [isSelected, setSelected] = useState(null);
+  const [isSelected, setSelected] = useState(0);
 
   const { isLoadingAddAdverts, stors } = useSelector((state) => state.adverts);
 
